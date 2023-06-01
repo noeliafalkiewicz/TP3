@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+
+/*ENCABEZADO*/
+header{
+    margin: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 10rem;
+    display: flex;
+    width: 80rem;
+
+    
+}
+
+
+nav{ 
+    position: relative;
+    top:1.5rem;
+    left: 10rem;
+    flex-grow: 2;
+    
+    
+}
+
+body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-family: Dongle;
+}
+
+.uno{
+   flex-grow: 0.5;
+}
+
+.foto1{
+    width: 4rem;
+}
+
+
+.texto1{
+    display: inline;
+    position: relative;
+    font-size: 1.5rem;
+    top: -1rem;
+    width: 10rem;
+}
+
+.nav{
+    color: grey;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    font-size:1.5rem;
+   
+}
+
+.triangulo{
+    width: 0.5rem;
+}
+
+.boton1{
+    position: relative;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    font-size: 1rem;
+    border-radius: 3rem;
+    flex-grow: 0.5;
+    height: 2.4rem;
+    top: 1rem;
+    
+}
+
+/*PARTE PRINCIPAL*/
+
+/*PARTE 1*/
+
+main{
+    margin-left: 7rem;
+}
+.primera{
+    display: flex;
+    width: 100vh;
+    margin-bottom: 15rem;
+
+}
+
+
+.titulo1{
+    width: 39rem;
+    font-size: 5.5rem;
+    line-height: 4.5rem;
+}
+
+.texto2{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color:  rgb(100, 97, 97);
+    line-height: 1.7rem;
+    letter-spacing: 0;
+}
+
+.serch{
+    width:50rem;
+    display: flex;
+}
+.busqueda1{
+
+    width: 36rem;
+    background-color: rgb(250, 248, 245);
+    height: 2.5rem;
+    margin-top: 5rem;
+    margin-left: 0;
+    position: relative;
+    left: 0;
+    border-color: rgb(210, 211, 212);
+    box-shadow: none;
+    
+    
+}
+
+.lupa{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    left: -35.5rem;
+    top: 5rem;
+}
+
+
+
+.boton2{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 8rem;
+    height: 2.4rem;
+    font-size: 1rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 3rem;
+    box-shadow: 0;
+    position: relative;
+    left: -12rem;
+    top: 5.15rem;
+
+}
+
+.numeros{
+    font-size: 3.5rem;
+
+}
+
+.palabras{
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.dos{
+    display: flex;
+    position: relative;
+    top: 5rem;
+
+}
+
+.dosdos{
+    width: 9rem;
+    position: relative;
+    bottom: -3.5rem;
+    
+}
+
+.dosdosdos{
+    padding-bottom: 0;
+}
+
+.alfa{
+    flex-grow: 1;
+}
+
+.beta{
+    flex-grow: 1;
+    width: 40rem;
+    position: relative;
+    left: -10rem;
+}
+.casa1{
+    width:40rem ;
+    border-radius: 1.5rem;
+    margin-left: 0;
+    
+}
+
+/*PARTE 2*/
+
+.aaa{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.titulo2{
+    font-size: 5rem;
+    flex-grow: 1.5;
+}
+
+.texto3{
+    font-size: 1.5rem;
+    flex-grow: 1;
+    margin-top: 1rem;
+}
+
+.foto4{
+    width: 19rem;
+}
+.casa2{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 2rem;
+    justify-content: space-between;
+    
+}
+
+
+
+.precio{
+      position: relative;
+      top: -16rem;
+      left: 1rem;
+      color: white;
+      background-color: black;
+      padding: 0.6rem 2rem;
+      border-radius: 3rem;
+      font-size: 1rem;
+
+}
+
+.titulo3{
+    font-size: 3.3rem;
+    line-height: 3rem;
+}
+
+.bbb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ubicacion{
+    font-size: 1.5rem;
+}
+
+.tres{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.boton3{
+    color: black;
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    margin-left: 10rem;
+}
+
+/*PARTE 3*/
+
+.tercera{
+    display: flex;
+    margin: 10rem 5rem;
+}
+
+.cuatro{
+    width: 39rem;
+    padding-left: 3rem;
+
+}
+.casa3{
+    width: 30rem;
+    border-radius: 1.5rem;
+
+}
+.titulo4{
+    font-size: 3.5rem;
+}
+
+.cinco{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/*PARTE 4*/
+
+.ccc{
+    display: flex;
+}
+
+.ddd{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.titulo5{
+    font-size: 4rem;
+    line-height: 3rem;
+    flex-grow: 1.5;
+}
+
+.texto4{
+    font-size: 1.5rem;
+    flex-grow: 1;
+    margin-top: 0.5rem;
+}
+
+.boton4{
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    border-radius: 100%;
+    padding: 1rem;
+    
+}
+
+.seis{
+   flex-grow: 1;
+}
+
+.titulo6{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.texto5{
+    font-size: 1.5rem;
+}
+
+.siete{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.boton5{
+    color: black;
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    margin-left: 8.5rem;
+}
+
+/*PARTE 5*/
+
+.quinta{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.casa4{
+    width: 25rem;
+    height: 50rem;
+    flex-grow: 2;
+}
+
+.eee{
+   width: 50%;
+}
+
+.fff{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.ggg{
+    display: flex;
+}
+
+.opiniones{
+    flex-grow: 1;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.cara{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top:2rem ;
+    margin-bottom: 5rem;
+}
+
+.hombre{
+    width: 4rem;
+    border-radius: 100%;
+
+}
+.hombrehombre{
+    font-size: 1rem;
+}
+
+.titulo7{
+      font-size: 4rem;
+      line-height: 3.5rem;
+      margin-top: 0;
+}
+.texto6{
+      font-size: 1.5rem;
+      margin-top: 1rem;
+}
+
+.titulo8{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.texto7{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    
+}
+
+
+
+
+/*PARTE 6*/
+
+.sexta{
+    display: flex;
+
+}
+
+.titulo9{
+     font-size: 3.5rem;
+     flex-grow: 1;
+     line-height: 3rem;
+}
+
+.texto8{
+   font-size: 1.5rem;
+   margin-left: 2.5rem;
+   margin-top: 1rem;
+}
+
+.casa5{
+    width: 37rem;
+    height: 38.5rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-right: 3rem;
+
+}
+
+.ocho{
+    flex-flow: 1rem;
+    margin-top: 0.7rem;
+}
+
+.variascasas{
+    display: flex;
+}
+
+.casa6{
+    width: 5rem;
+}
+
+.titulo10{
+    font-size: 5rem;
+    margin-top: 4rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.texto9{
+     font-size: 2rem;
+     
+}
+
+.ochoocho{
+    background-color: blue;
+    border-radius: 20rem;
+    color: white;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 4rem;
+
+}
+
+.casa6{
+    width: 13rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    margin-top:  8rem;
+    margin-bottom: 10rem;
+    margin-left: 7rem;
+
+}
+
+.footer1{
+    flex-grow: 1;
+}
+.footer2{
+    flex-grow: 1;
+    font-size: 2rem;
+    color: black;
+    margin-left: 3rem;
+}
+.footer3{
+    flex-grow: 1;
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+.footer4{
+    flex-grow: 1;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.logoynombre{
+    font-size: 2rem;
+}
+
+
+.telefono{
+    width: 1rem;
+}
+
+.sobre{
+    width: 1rem;
+}
+
+.texto11{
+    font-size: 2rem;
+}
+
+.boton6{
+    font-size: 1rem;
+    border-radius: 10px;
+    color: rgb(143, 139, 139);
+    width: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    
+}
+
+.boton7{
+    font-size: 1rem;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    width: 22.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+}
+
+
+
